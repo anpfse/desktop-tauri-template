@@ -29,7 +29,7 @@ export default function ToolsPage(): React.JSX.Element {
           <input
             value={path}
             onChange={(e) => setPath(e.currentTarget.value)}
-            placeholder="输入文件绝对路径..."
+            placeholder="输入当前目录下的相对路径..."
             className="flex-1 rounded-md border px-3 py-2 text-sm"
           />
           <Button onClick={() => void handleRead()}>读取</Button>
